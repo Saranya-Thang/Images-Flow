@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0" version="29.2.9">
   <diagram name="Page-1" id="thkoPY7ZdLxWSsBOKUPo">
-    <mxGraphModel dx="1636" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2095" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12,6 +12,15 @@
         </mxCell>
         <mxCell id="nN2LdLnrSHxuqQyDCDrA-14" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;HRRC&lt;/font&gt;" vertex="1">
           <mxGeometry height="60" width="100" x="350" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="b4E99votL3qLJJI2fLTk-4" edge="1" parent="1" source="nN2LdLnrSHxuqQyDCDrA-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="b4E99votL3qLJJI2fLTk-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-90" y="100" />
+              <mxPoint x="-90" y="265" />
+            </Array>
+            <mxPoint x="-120" y="210" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="nN2LdLnrSHxuqQyDCDrA-15" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="&lt;div&gt;High Return Rate Customers (HRR)&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;em style=&quot;color: rgb(0, 0, 0);&quot;&gt;Return &amp;gt; 20% of the purchases (excluding one-time buyers with less than 20 shipment units in a year)&lt;/em&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="100" width="150" x="90" y="50" as="geometry" />
@@ -30,6 +39,33 @@
         </mxCell>
         <mxCell id="Gp1_GEWc60zfC_XgsBu2-8" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p data-path-to-node=&quot;2&quot; style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;&quot;&gt;This graphical representation visualizes the statistical logic you&#39;ve defined. It clearly shows how the &lt;b data-path-to-node=&quot;2&quot; data-index-in-node=&quot;104&quot; style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;&quot;&gt;20% threshold&lt;/b&gt; is not an arbitrary number, but a deliberate selection based on identifying outliers in a skewed customer population.&lt;/p&gt;&lt;h3 data-path-to-node=&quot;3&quot; style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;&quot;&gt;Return Rate Distribution and Outlier Detection&lt;/h3&gt;&lt;p data-path-to-node=&quot;4&quot; style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;&quot;&gt;The chart below illustrates the return rate distribution of B2C US customers:&lt;/p&gt;&lt;ul data-path-to-node=&quot;5&quot; style=&quot;padding-inline-start: 32px; font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;&quot;&gt;&lt;li style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;&quot;&gt;&lt;p data-path-to-node=&quot;5,0,0&quot; style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;&quot;&gt;&lt;b data-path-to-node=&quot;5,0,0&quot; data-index-in-node=&quot;0&quot; style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;&quot;&gt;The Curve:&lt;/b&gt; Shows a typical &quot;Long Tail&quot; distribution where most customers have very low return rates (the peak), while a small number of customers have significantly higher rates (the tail to the right).&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;&quot;&gt;&lt;p data-path-to-node=&quot;5,1,0&quot; style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;&quot;&gt;&lt;b data-path-to-node=&quot;5,1,0&quot; data-index-in-node=&quot;0&quot; style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;&quot;&gt;The Box (IQR):&lt;/b&gt; Highlights the middle 50% of your customers (&lt;span class=&quot;math-inline&quot; data-math=&quot;0.4\%&quot; data-index-in-node=&quot;60&quot; style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;&quot;&gt;$0.4\%$&lt;/span&gt; to &lt;span class=&quot;math-inline&quot; data-math=&quot;7.8\%&quot; data-index-in-node=&quot;69&quot; style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;&quot;&gt;$7.8\%$&lt;/span&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;&quot;&gt;&lt;p data-path-to-node=&quot;5,2,0&quot; style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;&quot;&gt;&lt;b data-path-to-node=&quot;5,2,0&quot; data-index-in-node=&quot;0&quot; style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;&quot;&gt;The Statistical Fence:&lt;/b&gt; The red line at &lt;b data-path-to-node=&quot;5,2,0&quot; data-index-in-node=&quot;39&quot; style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;&quot;&gt;18.9%&lt;/b&gt; represents the traditional outlier boundary (&lt;span class=&quot;math-inline&quot; data-math=&quot;Q_3 + 1.5 \times IQR&quot; data-index-in-node=&quot;90&quot; style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;&quot;&gt;$Q_3 + 1.5 \times IQR$&lt;/span&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;&quot;&gt;&lt;p data-path-to-node=&quot;5,3,0&quot; style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;&quot;&gt;&lt;b data-path-to-node=&quot;5,3,0&quot; data-index-in-node=&quot;0&quot; style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;&quot;&gt;The High-Impact Segment:&lt;/b&gt; The dark red area starting at &lt;b data-path-to-node=&quot;5,3,0&quot; data-index-in-node=&quot;55&quot; style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;&quot;&gt;20%&lt;/b&gt; identifies the specific &quot;High Return Rate&quot; customers targeted by your project.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" vertex="1">
           <mxGeometry height="240" width="630" x="-810" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="b4E99votL3qLJJI2fLTk-6" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-90" y="390" />
+            </Array>
+            <mxPoint x="-90" y="260" as="sourcePoint" />
+            <mxPoint x="-70" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b4E99votL3qLJJI2fLTk-3" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="&lt;div&gt;High Return Rate Customers (HRR)&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;em style=&quot;color: rgb(0, 0, 0);&quot;&gt;Return &amp;gt; 20% of the purchases (excluding one-time buyers with less than 20 shipment units in a year)&lt;/em&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="150" x="-70" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="b4E99votL3qLJJI2fLTk-5" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="&lt;div&gt;High Return Rate Customers (HRR)&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;em style=&quot;color: rgb(0, 0, 0);&quot;&gt;Return &amp;gt; 20% of the purchases (excluding one-time buyers with less than 20 shipment units in a year)&lt;/em&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="150" x="-70" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="b4E99votL3qLJJI2fLTk-8" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-90" y="515" />
+            </Array>
+            <mxPoint x="-90" y="385" as="sourcePoint" />
+            <mxPoint x="-70" y="515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b4E99votL3qLJJI2fLTk-9" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="&lt;div&gt;High Return Rate Customers (HRR)&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;em style=&quot;color: rgb(0, 0, 0);&quot;&gt;Return &amp;gt; 20% of the purchases (excluding one-time buyers with less than 20 shipment units in a year)&lt;/em&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="150" x="-70" y="460" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
